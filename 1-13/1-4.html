@@ -1,0 +1,22 @@
+<!-- Link the css file -->
+<link rel="stylesheet" href="css/file.css" />
+
+<!-- Write Path with Django-->
+{% load static %}
+<link rel="stylesheet" href="{% url static '/css/1-4.css' %}" />
+
+<!-- Write Path -->
+<link rel="stylesheet" href="assets/css/master.css" />
+
+<!-- Write Path -->
+<link rel="stylesheet" href="../source/css/main.css" />
+
+<!-- write the style in the same page with the HTML -->
+<style>
+p {
+  color: red;
+}
+</style>
+
+<!-- Inline style -->
+<p style="color: blue;">This Is Our Paragraph</p>

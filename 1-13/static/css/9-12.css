@@ -1,0 +1,57 @@
+/* ###################################
+   ################ 1 ################
+   ################################### */
+
+/* div{
+    background-color: #DDD;
+    padding: 20px;
+    margin: 50px;
+    display: inline-block;
+}
+
+.shape-1{
+    border: 5px solid red;
+    outline: 5px solid black;
+}
+
+.shape-2{
+    border: 5px solid;
+    border-color: blue green;
+    outline: 5px solid black;
+}
+
+.shape-3{
+    border: 5px dashed;
+    border-color: red green blue yellow;
+    outline: 5px solid black;
+} */
+
+
+/* ###################################
+   ################ 2 ################
+   ################################### */
+
+div{
+    width: 400px;
+    background-color: #EEE;
+    padding: 3px;
+    margin: 8px;
+}
+
+.shape-1 div{
+    width: 320px;
+    border-left-color: rgba(218, 36, 136, 0.904);
+    border-left-style: solid;
+    border-left-width: 4px;
+}
+
+.shape-2{
+    visibility: hidden;
+}
+
+.shape-3 div{
+    width: 320px;
+    border-left-color: rgb(36, 151, 136);
+    border-left-style: solid;
+    border-left-width: 4px;
+}

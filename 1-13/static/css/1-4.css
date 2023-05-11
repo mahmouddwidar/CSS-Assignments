@@ -1,0 +1,84 @@
+/* https://elzero.org/css-assignments-lesson-from-1-to-4 */
+
+/* ###################################
+   ################ 1 ################
+   ################################### */
+
+/* Any Element With Class Title */
+.title {
+}
+
+/* Any Element With ID nav */
+#nav {
+}
+
+/* Any Element With Tage div */
+div {
+}
+
+/* Any Element With Tag h2 */
+h2 {
+}
+
+
+/* ###################################
+   ################ 5 ################
+   ################################### */
+
+/* Valid */
+._user-name {
+}
+
+/* Valid */
+.-user-name {
+}
+
+/* Vlaid */
+.-user-name {
+}
+
+/* Not Valid */
+.1user-name {
+}
+
+/* Not Valid */
+.@user-name {
+}
+
+/* Not Valid */
+.user@name {
+}
+
+/* Valid */
+._user10name {
+}
+
+/* Valid */
+.u {
+}
+
+
+/* ###################################
+   ################ 6 ################
+   ################################### */
+
+
+/* Bad */
+.USERNAME {
+}
+
+/* Bad */
+.UserName {
+}
+
+/* Good */
+.user-name {
+}
+
+/* Bad */
+.userName {
+}
+
+/* Bad */
+.usernameprofile {
+}
