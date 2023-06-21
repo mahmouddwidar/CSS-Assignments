@@ -1,0 +1,59 @@
+/*---------------------------------*/
+/*----------------1----------------*/
+/*---------------------------------*/
+
+.title {
+    text-shadow: 1px 0 0 tomato, 2px 0 0 rgb(0, 255, 255), 3px 0 0 blueviolet;
+}
+
+/*---------------------------------*/
+/*----------------2----------------*/
+/*---------------------------------*/
+.one {
+    text-transform: uppercase;
+}
+
+.two {
+    text-transform: capitalize;
+}
+
+.three {
+    text-transform: lowercase;
+}
+
+/*---------------------------------*/
+/*----------------3----------------*/
+/*---------------------------------*/
+
+div {
+    background-color: #EEE;
+    white-space: nowrap; /* prevent the text from going to the next line */
+    padding: 10px;
+    width: 400px;
+    overflow: hidden; /* prevent the text (content) from going outside the element*/
+    text-overflow: ellipsis; /* add the ... (3 dots) at the end */
+}
+
+/*---------------------------------*/
+/*----------------4----------------*/
+/*---------------------------------*/
+
+.link {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    background-color: #009688;
+    border-bottom: 10px solid #00514A;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+}

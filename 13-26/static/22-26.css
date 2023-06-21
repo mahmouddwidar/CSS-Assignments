@@ -1,0 +1,55 @@
+/*---------------------------------*/
+/*----------------1----------------*/
+/*---------------------------------*/
+
+div {
+    padding: 20px;
+    border: 3px solid tomato;
+}
+
+.task-1 {
+    padding: inherit;
+    border: inherit;
+    background-color: #eee;
+}
+
+/*---------------------------------*/
+/*----------------2----------------*/
+/*---------------------------------*/
+
+.text-1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 5vw;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.text-2 {
+    font-family: 'Cairo', sans-serif;
+    font-size: 5vw;
+}
+
+.text-3 {
+    font-family: 'Jomhuria', cursive;
+    font-size: 5vw;
+}
+
+/*---------------------------------*/
+/*----------------3----------------*/
+/*---------------------------------*/
+
+html {
+    font-size: 20px;
+}
+
+.task-3-1 {
+    font-size: 2.5rem;
+}
+
+.task-3-2 {
+    font-size: 2rem;
+}
+
+.task-3-3 {
+    font-size: 1.5rem;
+}
