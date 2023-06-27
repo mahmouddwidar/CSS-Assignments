@@ -1,0 +1,56 @@
+/* 
+-------------------- 
+------ Ass. 1 ------
+--------------------
+ */
+
+ /* 
+    Content Width Is : 100%
+    5 Spaces 15px * 5 => 75px From Content Width.
+    100% - 75px Available Space
+    4 Elements The Width Is: (100% - 75px) / 4
+*/
+
+.container {
+    width: 800px;
+    background-color: #eee;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.full-width,
+.one-two,
+.one-three,
+.one-four {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    text-transform: capitalize;
+    background-color: #ccc;
+    float: left;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+.full-width {
+    width: calc((100% - 30px) / 1);
+}
+
+.one-three {
+    width: calc((100% - 60px) / 3);
+}
+
+.one-two {
+    width: calc((100% - 45px) / 2);
+}
+
+.one-four {
+    width: calc((100% - 75px) / 4);
+}
+
+.clear {
+    clear: both;
+}
+
+
