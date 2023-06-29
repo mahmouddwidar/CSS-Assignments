@@ -1,0 +1,37 @@
+ul {
+    width: 400px;
+    font-weight: 400;
+}
+
+.html-li,
+.css-li {
+    background-color: #eee;
+    list-style: none;
+    padding: 10px;
+    margin: 10px;
+    list-style-position: outside;
+}
+
+.html-li li,
+.css-li li,
+.js-li li {
+    background-color: white;
+    margin: 5px;
+    padding: 5px;
+}
+
+.js-li {
+    background-color: #eee;
+    list-style-type: none;
+    padding: 10px;
+    margin: 10px;
+    list-style-position: inside;
+}
+
+.js-li li {
+    width: 300px;
+}
+
+/*
+Couldn't Make The li Items Start From The Left.
+*/
