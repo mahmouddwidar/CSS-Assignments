@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 500px;
+    height: 400px;
+    margin: 250px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 250px);
+    grid-template-rows: auto;
+    gap: 15px;
+    position: relative;
+}
+
+.E,
+.L {
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+    grid-template-rows: repeat(7, 50px);
+}
+
+.E div,
+.L div{
+    background-color: #323234;
+}
+
+/********** Draw E **********/
+.e1 {
+    grid-area: 1 / 1 / 2 / span 4;
+}
+
+.e2 {
+    grid-area: 2 / 1 / span 2 / 2;
+}
+
+.e3 {
+    grid-area: 4 / 1 / 5 / span 4;
+}
+
+.e4 {
+    grid-area: 5 / 1 / 7 / 2;
+}
+
+.e5 {
+    grid-area: 7 / 1 / 8 / span 4;
+}
+
+/********** Draw L **********/
+.l1 {
+    grid-area: 1 / 1 / span 6 / 2;
+}
+
+.l2 {
+    grid-area: 7 / 1 / 8 / span 4;
+}
+
+.container::before {
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: orange;
+    top: 5px;
+    left: 150px;
+    animation-name: move-e;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-delay: 3s;
+
+}
+
+@keyframes move-e {
+    10% {
+        top: 5px;
+        left: 4px;
+    }
+
+    20% {
+        top: 155px;
+        left: 4px;
+    }
+
+    30% {
+        top: 155px;
+        left: 150px;
+    }
+
+    40% {
+        top: 155px;
+        left: 4px;
+    }
+
+    50% {
+        left: 4px;
+        top: 305px;
+    }
+
+    60% {
+        top: 305px;
+        left: 155px;
+    }
+
+    70% {
+        top: 305px;
+        left: 4px;
+    }
+
+    80% {
+        left: 4px;
+        top: 5px;
+    }
+
+    90% {
+        top: 5px;
+        left: 150px;
+    }
+}
+
+.container::after {
+    content: '';
+    position: absolute;
+    opacity: 0;
+    width: 40px;
+    height: 40px;
+    background-color: orange;
+    top: 305px;
+    left: 415px;
+    animation-name: move-l;
+    animation-duration: 3s;
+}
+
+@keyframes move-l {
+    10% {
+        opacity: 1;
+        top: 305px;
+        left: 415px;
+    }
+
+    30% {
+        opacity: 1;
+        left: 270px;
+        top: 305px;
+    }
+
+    80% {
+        opacity: 1;
+        left: 270px;
+        top: 5px;
+    }
+
+    100% {
+        opacity: 0;
+        left: 270px;
+        top: 5px;
+    }
+}
